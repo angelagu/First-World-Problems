@@ -1,28 +1,31 @@
-<h1>First World Problems</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>Problem</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<div class="main_area">
+  <center>
+    <h1>#FirstWorldProblems</h1>
 
-  <tbody>
-    <% @first_world_problems.each do |first_world_problem| %>
-      <tr>
-        <td><%= first_world_problem.problem %></td>
-        <td><%= link_to 'Show', first_world_problem %></td>
-        <td><%= link_to 'Edit', edit_first_world_problem_path(first_world_problem) %></td>
-        <td><%= link_to 'Destroy', first_world_problem, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+    <table>
+      <thead>
+        <tr>
+          <th>Problem</th>
+          <th colspan="3"></th>
+        </tr>
+      </thead>
 
-<center>
-<textarea rows="8" cols="50" id="problem" placeholder="Your problem here..."></textarea></br>
-<button type="button" class="btn btn-default">Submit</button>
-</center>
+      <tbody>
+        <% @first_world_problems.each do |first_world_problem| %>
+          <tr>
+            <td><%= first_world_problem.problem %></td>
+            <td><%= link_to 'Show', first_world_problem %></td>
+            <td><%= link_to 'Edit', edit_first_world_problem_path(first_world_problem) %></td>
+            <td><%= link_to 'Destroy', first_world_problem, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
 
-<br>
+    <textarea rows="8" cols="50" id="problem" placeholder="Your problem here..."></textarea></br>
+    <button type="button" class="btn btn-default">Submit</button>
+  </center>
+
+  <br>
+</div>

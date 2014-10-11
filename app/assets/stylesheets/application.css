@@ -15,7 +15,7 @@
  */
 
  body {
-	background-color: #b2cecf;
+	background-color: #D9E2E1;
 }
 
 textarea#problem {
@@ -27,6 +27,29 @@ textarea#problem {
     box-shadow: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+
+#btn .btn-default {
+	background-color: #b2cecf;
+}
+
+.main_area {
+	background-color: #A2ADBC;
+	width: 50%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+
+h1 {
+	background-color: #DF9496;
+	color: #F4F3EE;
 	border-radius: 15px;
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
