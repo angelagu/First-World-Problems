@@ -1,0 +1,2 @@
+module FirstWorldProblemsHelper
+end
