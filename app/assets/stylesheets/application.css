@@ -17,3 +17,17 @@
  body {
 	background-color: #b2cecf;
 }
+
+textarea#problem {
+	border: none;
+    overflow: auto;
+    outline: none;
+    padding: 15px 15px 15px 15px;
+
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
