@@ -19,6 +19,7 @@
 	height: 100%;
 }
 
+
 textarea#problem {
 	border: none;
 	resize: none;
@@ -34,10 +35,15 @@ textarea#problem {
 	-webkit-border-radius: 15px;
 }
 
+.input_area {
+	padding-bottom: 10px;
+}
+
 .btn {
-	background-color: #fff;
-	color: #DF9496;
-	margin-right: 150px;
+	background-color: #DF9496;
+	border-color: #DF9496;
+	color: #F6F3EE;
+	margin-right: 140px;
 	float: right;
 }
 
