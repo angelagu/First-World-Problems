@@ -10,6 +10,7 @@ class FirstWorldProblemsController < ApplicationController
   # GET /first_world_problems/1
   # GET /first_world_problems/1.json
   def show
+    @first_world_problems = FirstWorldProblem.all
   end
 
   # GET /first_world_problems/new
