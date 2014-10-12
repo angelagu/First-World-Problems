@@ -14,15 +14,17 @@
  *= require_self
  */
 
- body {
+ body, html {
 	background-color: #D9E2E1;
+	height: 100%;
 }
 
 textarea#problem {
 	border: none;
+	resize: none;
     overflow: auto;
     outline: none;
-    padding: 15px 15px 15px 15px;
+    padding: 15px 50px 15px 15px;
 
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -32,25 +34,31 @@ textarea#problem {
 	-webkit-border-radius: 15px;
 }
 
-#btn .btn-default {
-	background-color: #b2cecf;
+.btn {
+	background-color: #fff;
+	color: #DF9496;
+	margin-right: 150px;
+	float: right;
 }
 
 .main_area {
 	background-color: #A2ADBC;
 	width: 50%;
-	height: 100%;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 15px;
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
+	overflow: auto;
+	min-height: 100% !important;
+	
+	padding-top: 50px;
 }
 
 h1 {
 	background-color: #DF9496;
 	color: #F4F3EE;
-	border-radius: 15px;
-	-moz-border-radius: 15px;
-	-webkit-border-radius: 15px;
+	font-family: "Waiting for the Sunrise";	
+	padding-left: 25%;
 }
