@@ -68,3 +68,12 @@ h1 {
 	font-family: "Waiting for the Sunrise";	
 	padding-left: 25%;
 }
+
+a {
+	color: #F4F3EE;
+	padding-left: 50px;
+}
+
+a:link {
+	color: #F4F3EE;
+};
