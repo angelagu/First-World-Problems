@@ -11,11 +11,12 @@
     </div>
   <% end %>
 
+<center>
   <div class="field">
-    <%= f.label :problem %><br>
-    <%= f.text_field :problem %>
+    <%= f.text_area :problem, :rows => 8, :cols => 50, :id => "problem", :placeholder => "Your problem here..." %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit "Submit", :class => "btn btn-default" %>
   </div>
+</center>
 <% end %>

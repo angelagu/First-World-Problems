@@ -5,6 +5,7 @@ class FirstWorldProblemsController < ApplicationController
   # GET /first_world_problems.json
   def index
     @first_world_problems = FirstWorldProblem.all
+    @first_world_problem = FirstWorldProblem.new
   end
 
   # GET /first_world_problems/1

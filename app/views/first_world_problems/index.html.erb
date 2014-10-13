@@ -1,11 +1,7 @@
 <h1>#FirstWorldProblems</h1>
 <div class="main_area">
-  <center>
-    <div class="input_area">
-      <textarea rows="8" cols="50" id="problem" placeholder="Your problem here..."></textarea></br>
-    </div> 
-    <button type="button" class="btn btn-default">Submit</button>
-  </center>
+
+  <%= render 'form' %>
 
   <br/>
   <td ><%= link_to 'See other #FirstWorldProblems', method: :show, :class => "link" %></td>
