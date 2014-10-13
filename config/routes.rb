@@ -56,7 +56,5 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  resources :first_world_problems
-
   root :to => 'first_world_problems#index'
 end

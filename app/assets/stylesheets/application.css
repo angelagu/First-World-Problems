@@ -62,6 +62,24 @@ textarea#problem {
 	padding-top: 50px;
 }
 
+.posted_problem {
+	background-color: #A2ADBC;
+	height: auto;
+	width: 400px;
+	padding: 15px 15px 15px 15px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+
+.problem_content {
+	background-color: #F4F3EE;
+	padding: 15px 15px 15px 15px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+
 h1 {
 	background-color: #DF9496;
 	color: #F4F3EE;
